@@ -5,15 +5,29 @@
   text-align: center;
 }
 
-@media (max-width: @screen-xs) {
-    body{font-size: 10px;}
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 0.9em;
+    }
 }
 
-@media (max-width: @screen-sm) {
-    body{font-size: 14px;}
+/* sm */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1em;
+    }
 }
 
+/* md */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.2em;
+    }
+}
 
-h5{
-    font-size: 1.4em;
-}  
+/* lg */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.3em;
+    }
+}
