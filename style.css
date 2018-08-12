@@ -5,6 +5,19 @@
   text-align: center;
 }
 
+h2 {
+  color:#7d97ad;
+}
+
+a {
+  color:#2d3c49;
+}
+
+hr {
+  background-color: #7d97ad;
+  height: 2px;
+}
+
 @media screen and (max-width: 767px) {
     body {
         font-size: 0.9em;
